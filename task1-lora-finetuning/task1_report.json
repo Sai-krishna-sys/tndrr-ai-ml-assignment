@@ -1,0 +1,39 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct",
+  "training_examples": 600,
+  "validation_examples": 96,
+  "test_examples": 104,
+  "lora_configuration": {
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "epochs": 3,
+    "learning_rate": 0.0002
+  },
+  "base_model": {
+    "valid_json_rate": 100.0,
+    "exact_match_accuracy": 0.0
+  },
+  "lora_model": {
+    "valid_json_rate": 100.0,
+    "exact_match_accuracy": 100.0,
+    "field_accuracy": 100.0
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.035706535644688606,
+      "validation_loss": 0.0001460163055829374
+    },
+    {
+      "epoch": 2,
+      "train_loss": 7.415708035599286e-05,
+      "validation_loss": 5.609681655490325e-05
+    },
+    {
+      "epoch": 3,
+      "train_loss": 4.8239179135028585e-05,
+      "validation_loss": 4.14062810705218e-05
+    }
+  ]
+}

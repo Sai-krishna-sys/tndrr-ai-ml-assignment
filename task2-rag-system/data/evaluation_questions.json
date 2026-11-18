@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main goal of the NIST AI Risk Management Framework?",
+    "answer": "To help organizations manage AI risks and promote the trustworthy and responsible development and use of AI systems.",
+    "gold_pages": [
+      7
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Is the NIST AI RMF voluntary or mandatory, and what is its scope?",
+    "answer": "It is voluntary, rights-preserving, non-sector-specific, and use-case agnostic.",
+    "gold_pages": [
+      7
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How does the AI RMF define risk?",
+    "answer": "Risk is the composite measure of the probability of an event occurring and the magnitude or degree of its consequences.",
+    "gold_pages": [
+      9
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What are the four functions of the AI RMF Core?",
+    "answer": "GOVERN, MAP, MEASURE, and MANAGE.",
+    "gold_pages": [
+      8,
+      25
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Why is GOVERN considered a cross-cutting function?",
+    "answer": "Because it applies throughout AI risk management and supports the other three functions.",
+    "gold_pages": [
+      27
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What role does senior leadership play in AI risk governance?",
+    "answer": "Senior leadership establishes the organizational risk management culture and takes responsibility for policies, goals, values, and risk tolerance.",
+    "gold_pages": [
+      27
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of the MAP function?",
+    "answer": "It establishes the context for an AI system and identifies risks and broader contributing factors.",
+    "gold_pages": [
+      30
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What information should organizations establish when mapping AI system context?",
+    "answer": "They should understand intended purposes, beneficial uses, relevant laws, norms, expectations, deployment settings, users, and potential impacts.",
+    "gold_pages": [
+      30,
+      31
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What types of methods does the MEASURE function use?",
+    "answer": "It uses quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risks.",
+    "gold_pages": [
+      33
+    ]
+  },
+  {
+    "id": 10,
+    "question": "When should AI systems be tested according to the MEASURE function?",
+    "answer": "AI systems should be tested before deployment and regularly while in operation.",
+    "gold_pages": [
+      33
+    ]
+  },
+  {
+    "id": 11,
+    "question": "How can independent review improve AI risk measurement?",
+    "answer": "Independent review can improve testing effectiveness and mitigate internal biases and potential conflicts of interest.",
+    "gold_pages": [
+      33
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What does the MANAGE function involve?",
+    "answer": "It involves allocating resources to mapped and measured risks and planning responses, recovery, and communication for incidents or events.",
+    "gold_pages": [
+      36,
+      37
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What are the four possible responses to high-priority AI risks?",
+    "answer": "Mitigating, transferring, avoiding, or accepting the risks.",
+    "gold_pages": [
+      37
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is an AI RMF use-case profile?",
+    "answer": "It is an implementation of AI RMF functions, categories, and subcategories for a specific setting or application based on the user's requirements, risk tolerance, and resources.",
+    "gold_pages": [
+      38
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Must the four AI RMF functions be performed in a fixed order?",
+    "answer": "No. Functions may be performed in different orders across the AI lifecycle, but the process should be iterative. Most users establish GOVERN first, then start with MAP and continue to MEASURE or MANAGE.",
+    "gold_pages": [
+      26
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "Q08": {
+    "question": "What information should organizations establish when mapping AI system context?",
+    "answer": "Organizations should establish and document the AI system's intended purposes, potentially beneficial uses, applicable laws, norms, expectations, and deployment settings. They should also document expected users, potential positive and negative impacts, assumptions and limitations about the system's purposes and risks, relevant TEVV metrics, organizational mission and goals, business context, risk tolerance, and system requirements.",
+    "source_pages": [
+      31
+    ],
+    "method": "Source-grounded evidence extraction"
+  },
+  "Q12": {
+    "question": "What does the MANAGE function involve?",
+    "answer": "The MANAGE function allocates resources to mapped and measured AI risks, prioritizes risk treatment, and develops responses to high-priority risks. Responses may include mitigating, transferring, avoiding, or accepting risks. It also involves planning for recovery and incident communication, monitoring deployed AI systems, managing third-party risks, and continually improving risk management processes.",
+    "source_pages": [
+      36,
+      37,
+      38
+    ],
+    "method": "Source-grounded evidence extraction"
+  }
+}

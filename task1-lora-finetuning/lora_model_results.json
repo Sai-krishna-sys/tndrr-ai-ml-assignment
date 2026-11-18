@@ -1,0 +1,1770 @@
+[
+  {
+    "input": "Remind me to revise DAA tomorrow at 10 AM.",
+    "expected": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"revise DAA\", \"date\": \"tomorrow\", \"time\": \"10:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to revise DAA tomorrow at 10 AM.",
+    "expected": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"revise DAA\", \"date\": \"tomorrow\", \"time\": \"10:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for revise DAA tomorrow at 10 AM.",
+    "expected": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"revise DAA\", \"date\": \"tomorrow\", \"time\": \"10:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about revise DAA tomorrow at 10 AM.",
+    "expected": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"revise DAA\", \"date\": \"tomorrow\", \"time\": \"10:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to revise DAA tomorrow at 10 AM.",
+    "expected": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"revise DAA\", \"date\": \"tomorrow\", \"time\": \"10:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add revise DAA to my schedule for tomorrow at 10 AM.",
+    "expected": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"revise DAA\", \"date\": \"tomorrow\", \"time\": \"10:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: revise DAA, tomorrow, 10 AM.",
+    "expected": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"revise DAA\", \"date\": \"tomorrow\", \"time\": \"10:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to revise DAA tomorrow at 10 AM.",
+    "expected": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"revise DAA\", \"date\": \"tomorrow\", \"time\": \"10:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "revise DAA",
+      "date": "tomorrow",
+      "time": "10:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to pay electricity bill on Sunday at 8 PM.",
+    "expected": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"pay electricity bill\", \"date\": \"on Sunday\", \"time\": \"20:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to pay electricity bill on Sunday at 8 PM.",
+    "expected": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"pay electricity bill\", \"date\": \"on Sunday\", \"time\": \"20:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for pay electricity bill on Sunday at 8 PM.",
+    "expected": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"pay electricity bill\", \"date\": \"on Sunday\", \"time\": \"20:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about pay electricity bill on Sunday at 8 PM.",
+    "expected": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"pay electricity bill\", \"date\": \"on Sunday\", \"time\": \"20:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to pay electricity bill on Sunday at 8 PM.",
+    "expected": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"pay electricity bill\", \"date\": \"on Sunday\", \"time\": \"20:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add pay electricity bill to my schedule for on Sunday at 8 PM.",
+    "expected": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"pay electricity bill\", \"date\": \"on Sunday\", \"time\": \"20:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: pay electricity bill, on Sunday, 8 PM.",
+    "expected": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"pay electricity bill\", \"date\": \"on Sunday\", \"time\": \"20:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to pay electricity bill on Sunday at 8 PM.",
+    "expected": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"pay electricity bill\", \"date\": \"on Sunday\", \"time\": \"20:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "pay electricity bill",
+      "date": "on Sunday",
+      "time": "20:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to study machine learning tomorrow at 8 AM.",
+    "expected": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"study machine learning\", \"date\": \"tomorrow\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to study machine learning tomorrow at 8 AM.",
+    "expected": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"study machine learning\", \"date\": \"tomorrow\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for study machine learning tomorrow at 8 AM.",
+    "expected": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"study machine learning\", \"date\": \"tomorrow\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about study machine learning tomorrow at 8 AM.",
+    "expected": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"study machine learning\", \"date\": \"tomorrow\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to study machine learning tomorrow at 8 AM.",
+    "expected": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"study machine learning\", \"date\": \"tomorrow\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add study machine learning to my schedule for tomorrow at 8 AM.",
+    "expected": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"study machine learning\", \"date\": \"tomorrow\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: study machine learning, tomorrow, 8 AM.",
+    "expected": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"study machine learning\", \"date\": \"tomorrow\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to study machine learning tomorrow at 8 AM.",
+    "expected": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"study machine learning\", \"date\": \"tomorrow\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "study machine learning",
+      "date": "tomorrow",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to attend team meeting on Sunday at 8 AM.",
+    "expected": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "prediction": "{\"task\": \"attend team meeting\", \"date\": \"on Sunday\", \"time\": \"08:00\", \"category\": \"work\"}",
+    "parsed": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to attend team meeting on Sunday at 8 AM.",
+    "expected": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "prediction": "{\"task\": \"attend team meeting\", \"date\": \"on Sunday\", \"time\": \"08:00\", \"category\": \"work\"}",
+    "parsed": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for attend team meeting on Sunday at 8 AM.",
+    "expected": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "prediction": "{\"task\": \"attend team meeting\", \"date\": \"on Sunday\", \"time\": \"08:00\", \"category\": \"work\"}",
+    "parsed": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about attend team meeting on Sunday at 8 AM.",
+    "expected": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "prediction": "{\"task\": \"attend team meeting\", \"date\": \"on Sunday\", \"time\": \"08:00\", \"category\": \"work\"}",
+    "parsed": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to attend team meeting on Sunday at 8 AM.",
+    "expected": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "prediction": "{\"task\": \"attend team meeting\", \"date\": \"on Sunday\", \"time\": \"08:00\", \"category\": \"work\"}",
+    "parsed": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add attend team meeting to my schedule for on Sunday at 8 AM.",
+    "expected": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "prediction": "{\"task\": \"attend team meeting\", \"date\": \"on Sunday\", \"time\": \"08:00\", \"category\": \"work\"}",
+    "parsed": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: attend team meeting, on Sunday, 8 AM.",
+    "expected": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "prediction": "{\"task\": \"attend team meeting\", \"date\": \"on Sunday\", \"time\": \"08:00\", \"category\": \"work\"}",
+    "parsed": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to attend team meeting on Sunday at 8 AM.",
+    "expected": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "prediction": "{\"task\": \"attend team meeting\", \"date\": \"on Sunday\", \"time\": \"08:00\", \"category\": \"work\"}",
+    "parsed": {
+      "task": "attend team meeting",
+      "date": "on Sunday",
+      "time": "08:00",
+      "category": "work"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to order a laptop next Wednesday at 12 PM.",
+    "expected": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "prediction": "{\"task\": \"order a laptop\", \"date\": \"next Wednesday\", \"time\": \"12:00\", \"category\": \"shopping\"}",
+    "parsed": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to order a laptop next Wednesday at 12 PM.",
+    "expected": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "prediction": "{\"task\": \"order a laptop\", \"date\": \"next Wednesday\", \"time\": \"12:00\", \"category\": \"shopping\"}",
+    "parsed": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for order a laptop next Wednesday at 12 PM.",
+    "expected": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "prediction": "{\"task\": \"order a laptop\", \"date\": \"next Wednesday\", \"time\": \"12:00\", \"category\": \"shopping\"}",
+    "parsed": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about order a laptop next Wednesday at 12 PM.",
+    "expected": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "prediction": "{\"task\": \"order a laptop\", \"date\": \"next Wednesday\", \"time\": \"12:00\", \"category\": \"shopping\"}",
+    "parsed": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to order a laptop next Wednesday at 12 PM.",
+    "expected": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "prediction": "{\"task\": \"order a laptop\", \"date\": \"next Wednesday\", \"time\": \"12:00\", \"category\": \"shopping\"}",
+    "parsed": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add order a laptop to my schedule for next Wednesday at 12 PM.",
+    "expected": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "prediction": "{\"task\": \"order a laptop\", \"date\": \"next Wednesday\", \"time\": \"12:00\", \"category\": \"shopping\"}",
+    "parsed": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: order a laptop, next Wednesday, 12 PM.",
+    "expected": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "prediction": "{\"task\": \"order a laptop\", \"date\": \"next Wednesday\", \"time\": \"12:00\", \"category\": \"shopping\"}",
+    "parsed": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to order a laptop next Wednesday at 12 PM.",
+    "expected": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "prediction": "{\"task\": \"order a laptop\", \"date\": \"next Wednesday\", \"time\": \"12:00\", \"category\": \"shopping\"}",
+    "parsed": {
+      "task": "order a laptop",
+      "date": "next Wednesday",
+      "time": "12:00",
+      "category": "shopping"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to visit the bank on Sunday at 2 PM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"on Sunday\", \"time\": \"14:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to visit the bank on Sunday at 2 PM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"on Sunday\", \"time\": \"14:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for visit the bank on Sunday at 2 PM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"on Sunday\", \"time\": \"14:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about visit the bank on Sunday at 2 PM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"on Sunday\", \"time\": \"14:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to visit the bank on Sunday at 2 PM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"on Sunday\", \"time\": \"14:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add visit the bank to my schedule for on Sunday at 2 PM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"on Sunday\", \"time\": \"14:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: visit the bank, on Sunday, 2 PM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"on Sunday\", \"time\": \"14:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to visit the bank on Sunday at 2 PM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"on Sunday\", \"time\": \"14:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "on Sunday",
+      "time": "14:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to complete Python assignment this weekend at 8 AM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"this weekend\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to complete Python assignment this weekend at 8 AM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"this weekend\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for complete Python assignment this weekend at 8 AM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"this weekend\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about complete Python assignment this weekend at 8 AM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"this weekend\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to complete Python assignment this weekend at 8 AM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"this weekend\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add complete Python assignment to my schedule for this weekend at 8 AM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"this weekend\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: complete Python assignment, this weekend, 8 AM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"this weekend\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to complete Python assignment this weekend at 8 AM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"this weekend\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "this weekend",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to review monthly expenses this weekend at 10 AM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this weekend\", \"time\": \"10:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to review monthly expenses this weekend at 10 AM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this weekend\", \"time\": \"10:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for review monthly expenses this weekend at 10 AM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this weekend\", \"time\": \"10:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about review monthly expenses this weekend at 10 AM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this weekend\", \"time\": \"10:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to review monthly expenses this weekend at 10 AM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this weekend\", \"time\": \"10:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add review monthly expenses to my schedule for this weekend at 10 AM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this weekend\", \"time\": \"10:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: review monthly expenses, this weekend, 10 AM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this weekend\", \"time\": \"10:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to review monthly expenses this weekend at 10 AM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this weekend\", \"time\": \"10:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this weekend",
+      "time": "10:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to review monthly expenses this Friday at 12 PM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this Friday\", \"time\": \"12:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to review monthly expenses this Friday at 12 PM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this Friday\", \"time\": \"12:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for review monthly expenses this Friday at 12 PM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this Friday\", \"time\": \"12:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about review monthly expenses this Friday at 12 PM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this Friday\", \"time\": \"12:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to review monthly expenses this Friday at 12 PM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this Friday\", \"time\": \"12:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add review monthly expenses to my schedule for this Friday at 12 PM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this Friday\", \"time\": \"12:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: review monthly expenses, this Friday, 12 PM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this Friday\", \"time\": \"12:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to review monthly expenses this Friday at 12 PM.",
+    "expected": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "prediction": "{\"task\": \"review monthly expenses\", \"date\": \"this Friday\", \"time\": \"12:00\", \"category\": \"finance\"}",
+    "parsed": {
+      "task": "review monthly expenses",
+      "date": "this Friday",
+      "time": "12:00",
+      "category": "finance"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to prepare for the exam today at 8 AM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"today\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to prepare for the exam today at 8 AM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"today\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for prepare for the exam today at 8 AM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"today\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about prepare for the exam today at 8 AM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"today\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to prepare for the exam today at 8 AM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"today\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add prepare for the exam to my schedule for today at 8 AM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"today\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: prepare for the exam, today, 8 AM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"today\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to prepare for the exam today at 8 AM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"today\", \"time\": \"08:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "today",
+      "time": "08:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to visit the bank this weekend at 6 AM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"this weekend\", \"time\": \"06:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to visit the bank this weekend at 6 AM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"this weekend\", \"time\": \"06:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for visit the bank this weekend at 6 AM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"this weekend\", \"time\": \"06:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about visit the bank this weekend at 6 AM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"this weekend\", \"time\": \"06:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to visit the bank this weekend at 6 AM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"this weekend\", \"time\": \"06:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add visit the bank to my schedule for this weekend at 6 AM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"this weekend\", \"time\": \"06:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: visit the bank, this weekend, 6 AM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"this weekend\", \"time\": \"06:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to visit the bank this weekend at 6 AM.",
+    "expected": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "prediction": "{\"task\": \"visit the bank\", \"date\": \"this weekend\", \"time\": \"06:00\", \"category\": \"personal\"}",
+    "parsed": {
+      "task": "visit the bank",
+      "date": "this weekend",
+      "time": "06:00",
+      "category": "personal"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to prepare for the exam in two days at 4 PM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"in two days\", \"time\": \"16:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to prepare for the exam in two days at 4 PM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"in two days\", \"time\": \"16:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for prepare for the exam in two days at 4 PM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"in two days\", \"time\": \"16:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about prepare for the exam in two days at 4 PM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"in two days\", \"time\": \"16:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to prepare for the exam in two days at 4 PM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"in two days\", \"time\": \"16:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add prepare for the exam to my schedule for in two days at 4 PM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"in two days\", \"time\": \"16:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: prepare for the exam, in two days, 4 PM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"in two days\", \"time\": \"16:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to prepare for the exam in two days at 4 PM.",
+    "expected": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"prepare for the exam\", \"date\": \"in two days\", \"time\": \"16:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "prepare for the exam",
+      "date": "in two days",
+      "time": "16:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Remind me to complete Python assignment next Monday at 2 PM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"next Monday\", \"time\": \"14:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "I need to complete Python assignment next Monday at 2 PM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"next Monday\", \"time\": \"14:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Schedule a reminder for complete Python assignment next Monday at 2 PM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"next Monday\", \"time\": \"14:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Please remind me about complete Python assignment next Monday at 2 PM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"next Monday\", \"time\": \"14:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Set a task to complete Python assignment next Monday at 2 PM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"next Monday\", \"time\": \"14:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Add complete Python assignment to my schedule for next Monday at 2 PM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"next Monday\", \"time\": \"14:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Create a reminder: complete Python assignment, next Monday, 2 PM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"next Monday\", \"time\": \"14:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "exact_match": true
+  },
+  {
+    "input": "Don't let me forget to complete Python assignment next Monday at 2 PM.",
+    "expected": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "prediction": "{\"task\": \"complete Python assignment\", \"date\": \"next Monday\", \"time\": \"14:00\", \"category\": \"education\"}",
+    "parsed": {
+      "task": "complete Python assignment",
+      "date": "next Monday",
+      "time": "14:00",
+      "category": "education"
+    },
+    "exact_match": true
+  }
+]
